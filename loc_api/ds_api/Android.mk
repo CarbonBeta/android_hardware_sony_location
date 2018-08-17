@@ -20,7 +20,8 @@ LOCAL_SRC_FILES += \
 
 LOCAL_CFLAGS += \
     -fno-short-enums \
-    -D_ANDROID_
+    -D_ANDROID_ \
+    -Wno-error
 
 LOCAL_COPY_HEADERS_TO:= libloc_ds_api/
 
